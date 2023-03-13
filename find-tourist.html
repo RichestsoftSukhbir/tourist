@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Tourist Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- fontawrsome link -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- slider link css -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+</head>
+
+<body>
+    <header class="navigation">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <a class="navbar-brand" href="./index.html"><img src="images/logo_header.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button"">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-3 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link color__grey" aria-current="page" href="./traveler.html">Traveler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color__grey" href="./tourist-guide.html">Tourist Guide</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color__grey" href="./find-tourist.html">Find Tourist Guide</a>
+                        </li>
+                    </ul>
+                    <div class="header_btn">
+                        <a href="javascript:void(0)" class="login color__grey button">Log In</a>
+                        <a href="javascript:void(0)" class="button-primary">Sign Up</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container spacer-y">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10 text-center mb-40">
+                        <h1 class="pb-0 mb-3">Find Tourist guides</h1>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <form action="" method="get" class="search-form">
+                            <input type="search" name="" id="" class="form-control theme-control search-bar" placeholder="Search by destination / pincode">
+                            <button type="submit" class="btn search-button">
+                                <img src="./images/search-icon.svg" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- no result found design remove "d-none" class to preview -->
+        <section class="no-result d-none">
+            <div class="container spacer-y pt-0">
+                <div class="row justify-content-center text-center">
+                    <div class="col-sm-6 col-lg-4">
+                        <img src="./images/no-result.png" class="mb-3" alt="">
+                        <h2 class="primary__color mb-3 p-0">No Results Found</h2>
+                        <p>
+                            We couldn’t find what you searched for. Try search again.
+                        </p>
+                        <a href="javascript:void(0)" class="button-primary">Send enquiry</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- no result found design ends -->
+        
+        <section class="tourist-list">
+            <div class="container spacer-y pt-0">
+                <div class="tourist-wrapper">
+                    <div class="tour-guide-image">
+                        <img src="./images/guider_img1.png" alt="">
+                    </div>
+                    <div class="tour-guide-content">
+                        <div class="row gy-3 gy-md-0 mb-3 mb-md-0">
+                            <div class="col-md-6 col-8">
+                                <h5 class="primary__color mb-2">Daniel Scott</h5>
+                                <ul class="list-unstyled m-0 rating-list">
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars"><i class="fa-solid fa-star"></i></li>
+                                    <li class="total-rating">4.0</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-4 text-end">
+                                <p class="guide-cost">$40/hr</p>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                        </p>
+                        <a href="./tourist-guide-detail.html" class="button-primary small-button">Book Now</a>
+                    </div>
+                </div>
+                <div class="tourist-wrapper">
+                    <div class="tour-guide-image">
+                        <img src="./images/guider_img2.png" alt="">
+                    </div>
+                    <div class="tour-guide-content">
+                        <div class="row gy-3 gy-md-0 mb-3 mb-md-0">
+                            <div class="col-md-6 col-8">
+                                <h5 class="primary__color mb-2">Daniel Scott</h5>
+                                <ul class="list-unstyled m-0 rating-list">
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars"><i class="fa-solid fa-star"></i></li>
+                                    <li class="total-rating">4.0</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-4 text-end">
+                                <p class="guide-cost">$40/hr</p>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                        </p>
+                        <a href="./tourist-guide-detail.html" class="button-primary small-button">Book Now</a>
+                    </div>
+                </div>
+                <div class="tourist-wrapper">
+                    <div class="tour-guide-image">
+                        <img src="./images/guider_img3.png" alt="">
+                    </div>
+                    <div class="tour-guide-content">
+                        <div class="row gy-3 gy-md-0 mb-3 mb-md-0">
+                            <div class="col-md-6 col-8">
+                                <h5 class="primary__color mb-2">Daniel Scott</h5>
+                                <ul class="list-unstyled m-0 rating-list">
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars filled"><i class="fa-solid fa-star"></i></li>
+                                    <li class="stars"><i class="fa-solid fa-star"></i></li>
+                                    <li class="total-rating">4.0</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-4 text-end">
+                                <p class="guide-cost">$40/hr</p>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                        </p>
+                        <a href="./tourist-guide-detail.html" class="button-primary small-button">Book Now</a>
+                    </div>
+                </div>
+                <div class="theme-pagination">
+                    <div class="page-nav page-prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <ul class="list-unstyled m-0 page-count">
+                        <li>1</li>
+                        <li class="active">2</li>
+                        <li>3</li>
+                        <li>...</li>
+                        <li>16</li>
+                    </ul>
+                    <div class="page-nav page-next">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="any-question">
+            <div class="container spacer-y">
+                <div class="row justify-content-end align-items-center">
+                    <div class="col-lg-6">
+                        <img src="./images/any_question_img.jpg" class="any_question-image" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-7">
+                        <div class="any_question_content zindex-up">
+                            <h2 class="primary__color m-0">Do You Have Any Question?</h2>
+                            <p class="paragraph_content">There are many variations of passages of Lorem Ipsum
+                                available, but the majority have suffered alteration in some form.</p>
+                            <div class="about_btn">
+                                <a href="./contact.html" class="button-primary">Contact us</a>
+                            </div>
+                        </div>
+                        <div class="any_question_logo">
+                            <img src="images/any_question_logo.png" alt="logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_home_page primary__bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer_left">
+                            <div class="footer_logo">
+                                <a href="javascript:void(0)"><img src="images/footer_logo.png" alt="logo"></a>
+                            </div>
+                            <div class="footer_content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam Contrary</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 position-relative">
+                        <div class="get_app">
+                            <p>Get the app</p>
+                            <div class="footer_right d-flex gap-4">
+                                <a href="javascript:void(0)"><img src="images/app_store1.svg" alt="app_store"></a>
+                                <a href="javascript:void(0)"><img src="images/app_store2.svg" alt="app_store"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_manu">
+                    <ul>
+                        <li><a href="./index.html" class="text-white">Home</a></li>
+                        <li><a href="./about-us.html" class="text-white">About Us</a></li>
+                        <li><a href="./traveler.html" class="text-white">Traveler</a></li>
+                        <li><a href="./tourist-guide.html" class="text-white">Tourist Guide</a></li>
+                        <li><a href="./blog.html" class="text-white">Blog</a></li>
+                        <li><a href="./contact.html" class="text-white">Contact Us</a></li>
+                        <li><a href="javascript:void(0)" class="text-white">Privacy & Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom1 primary__bg">
+            <div class="container">
+                <div class="footer_bottom">
+                    <div class="left_content">
+                        <p class="text-white m-0">© 2023 Tourist Guide. All rights reserved.</p>
+                    </div>
+                    <div class="right_side">
+                        <ul>
+                            <li><a href="javascript:void(0)"><img src="images/facebook.svg" alt="social"></a></li>
+                            <li><a href="javascript:void(0)"><img src="images/instagram.svg" alt="social"></a></li>
+                            <li><a href="javascript:void(0)"><img src="images/likdine.svg" alt="social"></a></li>
+                            <li><a href="javascript:void(0)"><img src="images/twitter.svg" alt="social"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- slick js -->
+    <script src="js/slick.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
